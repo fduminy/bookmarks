@@ -66,11 +66,8 @@ porter Squawk : http://java.net/projects/squawk/pages/BuildingSquawkForOtherMCUs
 - filechooser for VFS : vfsjfilechooser (no more maintained) and its 2 forks http://code.google.com/p/vfsjfilechooser2/, http://code.google.com/p/otrosvfsbrowser/ (safe / desktop)
 - https://github.com/aeremenok/swing-formbuilder (safe / desktop)
 - https://github.com/eikek/swing-tasks (desktop)
-sur safe :
-http://supercsv.sourceforge.net/
- 
-http://sojo.sourceforge.net/index.html
- 
+- http://supercsv.sourceforge.net/ (safe)
+- http://sojo.sourceforge.net/index.html
 - http://jodd.org/doc/methref.html + autres outils/librairies de jodd (safe / desktop)
 - http://docs.oracle.com/javase/tutorial/extra/fullscreen/example.html (full screen) (desktop)
 - http://brandonborkholder.github.com/glg2d/apidocs/index.html (acceleration graphics2D avec opengl) (desktop)
