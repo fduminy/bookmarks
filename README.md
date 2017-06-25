@@ -13,7 +13,7 @@
 - http://www.aurelienribon.com/blog/
 
 # Physics
-- http://jmonkeyengine.org/wiki/doku.php/jme3:beginner:hello_physics
+- http://jmonkeyengine.org/ (hello_physics : https://jmonkeyengine.github.io/wiki/jme3/beginner/hello_physics.html)
 - http://code.google.com/p/jinngine/source/browse/trunk/
 - http://jbullet.advel.cz/
 - http://code.google.com/p/dyn4j/
