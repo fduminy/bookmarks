@@ -171,3 +171,19 @@ jarsigner -storetype pkcs12 -keystore "Android Mobilis.p12" MVola.apk "android i
 - framework "à la grails" (cad findByName & co) mais avec des API Java : http://activeobjects.java.net/0.8.2/api/overview-summary.html
 
 - JCL (Java ClassLoader) : http://kamranzafar.github.io/JCL/ 
+
+# tomcat & timeouts
+- https://tomcat.apache.org/tomcat-7.0-doc/config/http.html
+- https://tomcat.apache.org/connectors-doc/common_howto/timeouts.html
+
+# compilation
+- https://github.com/google/compile-testing
+- https://github.com/rhulha/anty4j/blob/master/Anty/src/com/googlecode/anty4j/Anty.java
+
+- Effective TypeSafe config : http://www.janvsmachine.net/2016/07/effective-typesafe-config.html
+
+# Download file REST & proxy
+- https://docs.jboss.org/resteasy/docs/3.0-beta-3/userguide/html/RESTEasy_Client_Framework.html
+- http://io-tools.sourceforge.net/easystream/apidocs/index.html http://stackoverflow.com/questions/29712554/how-to-download-a-file-using-a-java-rest-service-and-a-data-stream
+- http://stackoverflow.com/questions/3496209/input-and-output-binary-streams-using-jersey
+- http://jodd.org/doc/proxetta/invocation-replacement.html
