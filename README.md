@@ -4,7 +4,9 @@
 ## Assembly, GDT and protected mode
 - http://esauvage.developpez.com/tutoriels/asm/assembleur-intel-avec-nasm/?page=page_8#LVIII.4
 - http://www.asmfr.com/forum/sujet-VESA-MODE-PROTEGE_1011138.aspx?p=2
-
+- https://github.com/neonics/qure/blob/master/DOC/Specs/VBE-AF07.pdf (and other documents in qure's git repository)
+- http://michelizza.developpez.com/realiser-son-propre-systeme/
+ 
 ## drivers
 - lib for building safe device drivers in C : http://code.google.com/p/rathaxes/ -> port in java for JNode ?
 
@@ -61,6 +63,7 @@ porter Squawk : http://java.net/projects/squawk/pages/BuildingSquawkForOtherMCUs
 
 # Testing
 - Pairs-testing : http://code.google.com/p/jwise/source/browse/trunk/jwise/test/core/PairTest.java, http://code.google.com/p/jcombinatorial/
+- JUnit ParameterSupplier : http://blog.schauderhaft.de/2010/02/07/junit-theories/
 
 # Ideas for personal projects (their names at end of line between parenthesis)
 - filechooser for VFS : vfsjfilechooser (no more maintained) and its 2 forks http://code.google.com/p/vfsjfilechooser2/, http://code.google.com/p/otrosvfsbrowser/ (safe / desktop)
@@ -99,3 +102,5 @@ porter Squawk : http://java.net/projects/squawk/pages/BuildingSquawkForOtherMCUs
 - bhava-wheel : http://code.google.com/p/bhava-wheel/
 - http://stackoverflow.com/questions/702535/using-maven-from-ant
 - https://github.com/github/choosealicense.com
+- swing rendering offscreen : http://stackoverflow.com/questions/2908418/rendering-swing-components-to-an-offscreen-buffer
+
