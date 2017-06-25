@@ -19,6 +19,8 @@ porter Squawk : http://java.net/projects/squawk/pages/BuildingSquawkForOtherMCUs
 
 # raspberry pi
 - arkos (Os pour raspberry) : http://www.techworld.com.au/article/528273/arkos_building_anti-cloud_raspberry_pi_/
+- OpenHAB Home Automation on Raspberry Pi : http://javacodegeeks.tradepub.com/free/w_make215/prgm.cgi
+- Building a Media Center with Raspberry Pi : http://javacodegeeks.tradepub.com/free/w_pacb35/prgm.cgi
 
 # Animation
 - trident, anim lib for java : https://github.com/kirill-grouchnikov/trident
@@ -42,6 +44,12 @@ porter Squawk : http://java.net/projects/squawk/pages/BuildingSquawkForOtherMCUs
 - http://www.eventbus.org/api/index.html
 
 # Git
+- Git rebase workflow : https://randyfay.com/content/rebase-workflow-git
+
+## Git bisect
+- http://stackoverflow.com/questions/29300194/create-new-junit-test-and-run-with-git-bisect
+- https://www.javacodegeeks.com/2014/03/automated-bug-finding-with-git-bisect-and-mvn-test.html
+
 ## Git process
 - http://nvie.com/posts/a-successful-git-branching-model/
 - outil : http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/
@@ -77,7 +85,28 @@ porter Squawk : http://java.net/projects/squawk/pages/BuildingSquawkForOtherMCUs
 - http://emblemparade.net/projects/vncj/
 - cacio-tta : http://ramshacking.blogspot.fr/2009/07/server-class-for-vnc.html
 - http://emblemparade.net/projects/javaurl/architecture.html (desktop)
- 
+
+# Transformation librairies
+- A voir en premier : http://morph.sourceforge.net/reference/html/transformers.html#transformers-graphs
+- EzMorph and related projects : http://ezmorph.sourceforge.net/
+     
+# java performance
+- http://java-performance.com/
+- http://blog.jooq.org/2015/02/05/top-10-easy-performance-optimisations-in-java/
+- http://www.rapidoid.org/
+
+# maven + tomcat
+- http://www.mkyong.com/maven/how-to-deploy-maven-based-war-file-to-tomcat/
+- http://www.javacreed.com/how-to-run-embedded-tomcat-with-maven/
+
+# builder generators
+- http://www.vineetmanohar.com/2009/11/3-ways-to-run-java-main-from-maven/
+- https://github.com/uglycustard/buildergenerator
+
+# Ideas :
+- use Window.getWindows() (Frame.getFrames() ?) in desktop project
+- To dowload third party libraries, in JNode plugin list : maven:junit:junit:4.2 (or maven-alias:junit to centralize artifacts) -> convertor from pom.xml to JNode plugin's xml
+
 # Others
 - Open source CMS in java : http://www.ametys.org/fr/index.html
 - Plugin architecture : http://blog.nuclex-games.com/tutorials/cxx/plugin-architecture/
@@ -103,4 +132,42 @@ porter Squawk : http://java.net/projects/squawk/pages/BuildingSquawkForOtherMCUs
 - http://stackoverflow.com/questions/702535/using-maven-from-ant
 - https://github.com/github/choosealicense.com
 - swing rendering offscreen : http://stackoverflow.com/questions/2908418/rendering-swing-components-to-an-offscreen-buffer
+- xsd validation : http://stackoverflow.com/questions/15732/whats-the-best-way-to-validate-an-xml-file-against-an-xsd-file
 
+==========================
+
+Tips :
+- sign an android application : http://developer.android.com/guide/publishing/app-signing.html#releasecompile
+keytool -list -storetype pkcs12 -keystore "Android Mobilis.p12"
+jarsigner -storetype pkcs12 -keystore "Android Mobilis.p12" MVola.apk "android ideo mobilis"
+
+- Full screen on clic on an image : http://stackoverflow.com/questions/4915312/making-image-full-screen-on-android-tutorial-app
+- async task (with robotguice) : http://code.google.com/p/roboguice/wiki/RoboAsyncTask
+- maven & android : http://code.google.com/p/maven-android-plugin/wiki/GettingStarted
+- listview avec vue specific pour items : http://www.ace-art.fr/wordpress/2010/07/21/tutoriel-android-partie-6-les-listview/
+- http://code.google.com/p/dynadroid/source/browse/trunk/java/src/org/dynadroid/utils/CrashHandler.java
+- http://www.droidfonts.com/info/droid-serif-fonts/
+
+- http://www-igm.univ-mlv.fr/~forax/ens/java-avance/cours/pdf/10-%20Concurrency.pdf
+- http://developer.android.com/reference/android/app/ListFragment.html
+- http://developerlife.com/tutorials/?p=327
+- http://android-er.blogspot.com/2010/07/load-listview-in-background-asynctask.html
+- http://android-developers.blogspot.com/2010/07/multithreading-for-performance.html
+- http://commonsware.com/blog/
+- http://code.google.com/p/shelves/source/browse/trunk/Shelves/src/org/curiouscreature/android/shelves/drawable/SpotlightDrawable.java
+- http://developer.android.com/reference/android/os/Debug.html
+- https://github.com/commonsguy
+- https://sites.google.com/site/androidcontentfromchet/downloads/UITipsTricksTechniques.pdf?attredirects=1
+- http://nookdevs.com/Emulator
+
+- http://www.android2ee.com/index.php?option=com_content&view=article&id=87&Itemid=155&lang=fr
+- http://www.vogella.de/articles/AndroidPerformance/article.html
+- http://www.javacodegeeks.com/2012/01/wizard-design-pattern.html
+
+- plusieurs fenetre dans android : http://www.onskreen.com/cornerstone/
+- choisir une licence : http://www.zdnet.com/blog/burnette/howto-pick-an-open-source-license-part-1/130
+- async swing : http://weblogs.java.net/blog/forax/archive/2011/10/01/asyncswing
+
+- framework "à la grails" (cad findByName & co) mais avec des API Java : http://activeobjects.java.net/0.8.2/api/overview-summary.html
+
+- JCL (Java ClassLoader) : http://kamranzafar.github.io/JCL/ 
