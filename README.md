@@ -62,6 +62,22 @@ porter Squawk : http://java.net/projects/squawk/pages/BuildingSquawkForOtherMCUs
 # Testing
 - Pairs-testing : http://code.google.com/p/jwise/source/browse/trunk/jwise/test/core/PairTest.java, http://code.google.com/p/jcombinatorial/
 
+# Ideas for personal projects (their names at end of line between parenthesis)
+- filechooser for VFS : vfsjfilechooser (no more maintained) and its 2 forks http://code.google.com/p/vfsjfilechooser2/, http://code.google.com/p/otrosvfsbrowser/ (safe / desktop)
+- https://github.com/aeremenok/swing-formbuilder (safe / desktop)
+- https://github.com/eikek/swing-tasks (desktop)
+sur safe :
+http://supercsv.sourceforge.net/
+ 
+http://sojo.sourceforge.net/index.html
+ 
+- http://jodd.org/doc/methref.html + autres outils/librairies de jodd (safe / desktop)
+- http://docs.oracle.com/javase/tutorial/extra/fullscreen/example.html (full screen) (desktop)
+- http://brandonborkholder.github.com/glg2d/apidocs/index.html (acceleration graphics2D avec opengl) (desktop)
+- http://emblemparade.net/projects/vncj/
+- cacio-tta : http://ramshacking.blogspot.fr/2009/07/server-class-for-vnc.html
+- http://emblemparade.net/projects/javaurl/architecture.html (desktop)
+ 
 # Others
 - Open source CMS in java : http://www.ametys.org/fr/index.html
 - Plugin architecture : http://blog.nuclex-games.com/tutorials/cxx/plugin-architecture/
